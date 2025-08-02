@@ -6,8 +6,13 @@ session_start();
 // Define base paths
 define('BASE_PATH', dirname(__DIR__));
 define('PUBLIC_PATH', __DIR__);
-// define('SITE', dirname(__DIR__));
-define('SITE', 'giskids.test');
+define('SITE1', dirname(__DIR__)); // ~/Sites/giskids
+define('SITE2', 'giskids.php');    
+
+// print("SITE1: " . SITE1); echo "<br>";
+// print("SITE2: " . SITE2); echo "<br>";
+// print("BASE_PATH: " . BASE_PATH); echo "<br>";
+// print("PUBLIC_PATH: " . PUBLIC_PATH); echo "<br>";
 
 // Load environment variables
 if (file_exists(BASE_PATH . '/.env')) {
