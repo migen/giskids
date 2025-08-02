@@ -1,0 +1,5 @@
+- google oath 
+- facebook oauth 
+- users upon login, cannot access systems not granted on their users.access_systems json value 
+- remove etc host giskids.com mapping to 127 locahost for oauth testing  
+-

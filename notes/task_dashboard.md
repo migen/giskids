@@ -1,0 +1,5 @@
+- do the dashboard module
+- follow the logic but move the ui to the views/dashboard/index.php 
+- refer to notes/task_admin_layout.md and use that admin layout 
+- make it work 
+-  
